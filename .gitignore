@@ -1,0 +1,77 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+lerna-debug.log*
+.bun-install-cache/
+
+# Environment and secrets
+.env
+.env.*.local
+!.env.example
+
+# Logs and reports
+logs/
+*.log
+*.tsbuildinfo
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.swp
+
+# Coverage and build artifacts
+coverage/
+dist/
+build/
+.out/
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+.tmp/
+temp/
+tmp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Results and artifacts (project-specific)
+results/
+migration-results.csv
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional local scripts/output
+*.local.*
+*.bak
+*.orig
+*.rej
+
+# Storybook / Docs (if used)
+.out/
+.storybook-out/
+
+# Testing
+.jest/
+.mocha/
+.nyc_output/
+
+# Misc tool caches
+.eslintcache
+.stylelintcache
+.cache-loader/
