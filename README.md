@@ -24,7 +24,7 @@ Bulk transfer repositories from one GitHub organization to another using the Git
 
 #### Clone and install
 
-2. `git clone https://github.com/GAIN-Performance/git-migration.git`
+2. `git clone https://github.com/OhColar/git-migration.git`
 
 3. `cd git-migration`
 
